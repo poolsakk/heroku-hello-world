@@ -6,7 +6,7 @@ async function main() {
     let i = 1;
     while(true) {
         console.log(`Hello Heroku ${i}`);
-        await sleep(10000)
+        await sleep(5000)
         i++
     }
 }
